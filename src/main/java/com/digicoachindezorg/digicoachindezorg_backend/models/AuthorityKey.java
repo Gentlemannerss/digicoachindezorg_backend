@@ -1,4 +1,8 @@
 package com.digicoachindezorg.digicoachindezorg_backend.models;
 
-public class AuthorityKey {
+import java.io.Serializable;
+
+public class AuthorityKey implements Serializable {
+    private Long userId;
+    private String authority;
 }
